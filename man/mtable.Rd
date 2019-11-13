@@ -12,3 +12,7 @@ mtable(x)
 \description{
 How many times does a unique combination of variables occur?
 }
+\examples{
+mtable(iris)
+mtable(mtcars[,c(8:11)])
+}

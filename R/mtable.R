@@ -1,6 +1,9 @@
 #' Create frequency table from multivariate data.
 #' @description How many times does a unique combination of variables occur?
 #' @param x matrix or dataframe
+#' @examples
+#' mtable(iris)
+#' mtable(mtcars[,c(8:11)])
 #' @importFrom magrittr %>%
 #' @export
 mtable <- function(x){

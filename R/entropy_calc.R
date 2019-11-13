@@ -2,6 +2,10 @@
 #' @param x list or vector
 #' @param naive logical use naive algorithm for entropy calculation
 #' @param hash logical use hash
+#' @examples
+#' x <- mtcars[,c(8:11)]
+#' y <- split(sapply(x, function(x){x}), 1:32)
+#' entropy_calc(y, hash = TRUE)
 #' @export
 entropy_calc <- function(x, naive = FALSE, hash = FALSE){
   if(hash){

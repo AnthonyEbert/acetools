@@ -1,6 +1,6 @@
 Package: acetools
 Title: R package of my utility functions 
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Anthony",
            family = "Ebert",

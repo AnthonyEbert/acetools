@@ -16,3 +16,8 @@ entropy_calc(x, naive = FALSE, hash = FALSE)
 \description{
 Calculate entropy of list or vector
 }
+\examples{
+x <- mtcars[,c(8:11)]
+y <- split(sapply(x, function(x){x}), 1:32)
+entropy_calc(y, hash = TRUE)
+}
