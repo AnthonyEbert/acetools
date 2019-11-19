@@ -2,6 +2,9 @@
 
 export(aapply)
 export(entropy_calc)
+export(full_join_quietly)
+export(left_join_quietly)
 export(mtable)
 export(nonduplicated)
+export(right_join_quietly)
 importFrom(magrittr,"%>%")
